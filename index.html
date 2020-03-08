@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-100">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,48 +9,81 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Responsive Portfolio</title>
+    <title>Mark Prodehl Responsive Portfolio</title>
   </head>
-  <body>
 
-    <nav class="nav nav-pills nav-fill">
-      <a id="my-name" class="nav-item nav-link active" href="#">Mark Prodehl</a>
-      <a id="about" class="nav-item nav-link" href="#">About</a>
-      <a id="portfolio" class="nav-item nav-link" href="#">Portfolio</a>
-      <a id="contact" class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">contact</a>
-    </nav>
+  <body class="d-flex flex-column h-100">
 
-    <br>
+    <!-- <div class="wrapper"> -->
 
-    
-
+        
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <div class="page-header">
-            <h1>About Me</h1>
-            <hr/>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <img id="profile-image" src="http://placehold.it/450x300" alt="Placeholder">
-              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab 
-                consectetur iste expedita corrupti unde numquam, deleniti itaque nostrum veritatis praesentium animi, laborum iusto quaerat aliquid aspernatur. Quidem, iusto in?
-              </span>
-              
+        <div class="col">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+            <a class="navbar-brand bg-info text-white p-3 py-auto" href="#">Mark Prodehl</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                
+              </ul>
             </div>
-            <div class="col-md-6">
-              
-            </div>
-          </div>
+          </nav>
         </div>
-        <!--Create Card taking up 4 Columns-->
+        
+      </div>
+    </div>
+    <br>
+  
+ 
+      <div class="container mb-auto bg-light border">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="page-header">
+              <h1 class="text-info">About Me</h1>
+              <hr/>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <!-- set image width by width="200px" inside the img tag -->
+                <img id="profile-image" src="assets/images/profile.jpg" alt="Placeholder" class="float-sm-left mr-3" width="200px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ab 
+                  consectetur iste expedita corrupti unde numquam, deleniti itaque nostrum veritatis praesentium animi, laborum iusto quaerat aliquid aspernatur. Quidem, iusto in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, eius magnam. Quod soluta facilis totam delectus vero placeat architecto quaerat maiores, esse sed ducimus dolore quia earum, commodi ipsa voluptate?
+                </p>
+                
+              </div>
+              <div class="col-md-12">
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+          <!--Create Card taking up 4 Columns-->
+        
+        </div>
+
       
       </div>
 
+      <footer class="footer mt-0 py-3 bg-secondary">
+        <div class="container">
+          <span class="text-white bg-secondary bg-secondary d-flex justify-content-center">Copywrite</span>
+        </div>
+      </footer>
+
     
-
-
+ 
+    <!-- </div> -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
