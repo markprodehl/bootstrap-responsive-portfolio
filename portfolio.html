@@ -13,36 +13,49 @@
     </head>
 
     <body>
+
+
    
         <!--navbar goes here-->
         <div class="container">
             <div class="row">
-              <div class="col-md-12"></div>
-    
-        
-                <nav id="navbar">
-                  <nav class="nav nav-pills nav-fill">
-                    <a id="my-name" class="nav-item nav-link active" href="#">Mark Prodehl</a>
-                    <a id="about" class="nav-item nav-link" href="#">About</a>
-                    <a id="portfolio" class="nav-item nav-link" href="#">Portfolio</a>
-                    <a id="contact" class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">contact</a>
-                  </nav>
-    
+                <div class="col">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+                        <a class="navbar-brand bg-info text-white p-3 py-auto" href="#">Mark Prodehl</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link mr-5 border-right" href="#">About<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-5 border-right" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">contact</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
                 </nav>
-    
             </div>
-    
-          </div>
+            
+        </div>
+        </div>
         
         
         <!--navbar ends here-->
 
         <!--cards start here-->
-        <div class="container">
+        <div class="container mb-auto mt-3 bg-light border">
             <div class="row">
                 <div class="col-md-12">
                 <div class="page-header">
-                <h1>Portfolio</h1>
+                <h1 class="text-info">Portfolio</h1>
                 <hr/>
             </div>
 
@@ -132,6 +145,12 @@
                 </div>
             </div>
         </div>  
+
+        <footer class="footer mt-0 py-3 bg-secondary">
+            <div class="container">
+              <span class="text-white bg-secondary d-flex justify-content-center">&copyCopyright</span>
+            </div>
+          </footer>
 
            
         
